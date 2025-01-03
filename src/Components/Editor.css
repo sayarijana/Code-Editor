@@ -1,0 +1,44 @@
+
+.editor-container{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-direction: column;
+    padding: .5rem;
+    background-color: hsl(225, 6%, 25%);
+}
+
+.editor-container.collapsed{
+    flex-grow: 0;
+    height: 2.5rem;
+}
+ 
+  
+.editor-title{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 6%, 10%);
+    color: white;
+    padding: .5rem .5rem .5rem 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+  
+.code-mirror-wrapper{
+    flex-grow: 1;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  
+}
+
+button{
+    background-color:transparent;
+    border: none;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+
+  
+  

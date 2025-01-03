@@ -1,0 +1,17 @@
+.top{
+  background-color: hsl(225, 6%, 25%);
+}
+
+.pane{
+  height: 50vh;
+}
+
+.top-container{
+  display: flex;
+}
+
+@media (max-width:700px){
+  .top-container{
+    flex-direction: column;
+  }
+}
